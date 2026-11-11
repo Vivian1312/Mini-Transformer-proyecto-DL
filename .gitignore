@@ -1,0 +1,35 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Cachés de Jupyter
+.ipynb_checkpoints/
+
+# Configuración local
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Datos locales
+data/
+notebooks/data/
+
+# Modelos entrenados y checkpoints
+models/
+notebooks/models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Evaluaciones y resultados locales
+notebooks/evaluaciones/
+resultados/
+
+# Archivos generados
+*.log
